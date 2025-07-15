@@ -27,6 +27,11 @@ li, a {
 	color: #fff;
 }
 
+::selection {
+	color: #fff;
+	background-color: #4D7F6C;
+}
+
 /*HEADER*/
 
 
@@ -185,6 +190,7 @@ nav > ul {
 
 .PopularResidence {
 	background-color: #1A242F;
+	scroll-margin-top: 50px;
 }
 
 .background-overlay {
@@ -246,6 +252,7 @@ nav > ul {
 .WhyToChooseUs {
 	position: relative;
 	padding-block: 10vh;
+	scroll-margin-top: 50px;
 }
 
 .WhyToChooseUs h2 {
